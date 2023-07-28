@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+
+body{
+    background-image: url("Coming Soon.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    font-family: 'Poppins';
+}
+
+
+.first img{
+    margin-right: 10px;
+}
+
+.login{
+    margin-top: 20px;
+    padding: 10px 40px 10px 40px;
+    background-color: #F9A215;
+    border-radius: 5px;
+    width: max-content;
+}
+
+.login a{
+    color: white;
+    
+}
+
+.image img{
+    z-index: -1;
+    right: 0px;
+    margin-right: 150px;
+    position: absolute
+}
+
+@media screen and (max-width:1360px) {
+    .image{
+        display: none;
+    }
+}
+
+.isian{
+    margin-left: 20px;
+    width: 100px;
+}
+
+.line-p:before{
+    content:" ";
+    display: block;
+    height: 4px;
+    width: 34px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    background: #F9A215;
+}
+
+.line-p{
+    position: relative;
+    max-width:210px;
+    text-align: center;
+}
+
+.row input[type=text] {    
+    width: 50%;
+    height: 48px;
+    border-radius: 20px;
+}
+
+.row input[type=button] {    
+    width: 50%;
+    height: 48px;
+    background-color: #F9A215;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 9px;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+.text{
+    font-size: max(22px,4vw);
+}
+
+.sun a{
+    text-decoration: none;
+    margin-right: 8px;
+}
